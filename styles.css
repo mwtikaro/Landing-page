@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+
+
+#body {
+    font-family: Tangerine, Inconsolata, Droid+Sans;
+    /* font-family: "roboto mono", sans-serif;
+    font-family: Verdana, Tahoma, sans-serif; */
+}
+
+header, footer {
+    height: 70px;
+    background-color: #1f2937;
+    font-size: ;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerlinks {
+    display: flex;
+    padding: 5px;
+    justify-content: space evenly;
+}
+
+.logo {
+    padding: 10px;
+    width: 100px;
+    margin: 10px;
+    font-size: 24px;
+}
+.headerlink {
+    padding: 10px;
+    width: 100px;
+    margin: 10px;}
+
+.button {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8%;
+    width: 80px;
+    padding: 5px;
+}
+
+
+.blok1 {
+    background-color: #1f2937;
+    background-size: stretch;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+
+.tekst1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+.minstrel {
+    background-color: #1f2937;
+    width: 500px;
+}
+
+.blok2 {
+}
+
+.blok2a {
+    padding:10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.plaatjes {
+    padding: 5px;
+    margin-top: 50px;
+    width: 300px;
+    height: 400px;
+    border-radius: 8%;
+}
+
+.blok3 {
+    background-color: #e5e7eb;
+    padding: 5 px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+} 
+
+.blok4 {
+
+    
+}
