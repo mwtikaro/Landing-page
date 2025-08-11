@@ -1,20 +1,18 @@
-html {
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
-}
 
-
-
-
-#body {
-    font-family: Tangerine, Inconsolata, Droid+Sans;
-    /* font-family: "roboto mono", sans-serif;
-    font-family: Verdana, Tahoma, sans-serif; */
+       font-family: 'Roboto', sans-serif;
 }
 
 header, footer {
@@ -86,8 +84,8 @@ header, footer {
 .plaatjes {
     padding: 5px;
     margin-top: 50px;
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
     border-radius: 8%;
 }
 
@@ -100,6 +98,28 @@ header, footer {
 } 
 
 .blok4 {
+    width: 500px;
+    padding: 20px 100px 20px;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    margin: 50px 100px;
+}
 
-    
+.blok4a {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.footer {
+    box-sizing: border-box;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
 }
